@@ -10,6 +10,7 @@ install:
 script: 
     - "coverage run --source=fuckit setup.py test"
     
+    
 after_success:
     coveralls
     
